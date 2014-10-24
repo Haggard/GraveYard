@@ -1,0 +1,21 @@
+name: GraveYard
+main: com.gmail.Haggard_nl.GraveYard.GraveYardMain
+authors: [Haggard.nl]
+description: Beta
+version: 1.1.4
+softdepend: [ServerCore, WorldEdit, WorldGuard]
+
+commands:
+  graveyard:
+    description: Type /GraveYard help for more info!
+    aliases: [gy]
+permissions:
+  GraveYard.admin:
+    description: Gives access to all tools
+    default: true 
+    children:
+      GraveYard.config: true
+  GraveYard.config:
+      description: Gives access config
+      default: true 
+        

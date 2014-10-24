@@ -1,0 +1,6 @@
+Debug:
+    enabled: false
+settings:
+  previewInSec: 10
+  graves: true
+  noGraveWorld:
